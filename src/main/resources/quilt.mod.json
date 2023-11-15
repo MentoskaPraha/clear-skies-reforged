@@ -11,21 +11,16 @@
 				"MentoskaPraha": "Owner"
 			},
 			"contact": {
-				"homepage": "",
-				"issues": "",
-				"sources": ""
+				"homepage": "https://modrinth.com/mod/OiK47KVl",
+				"issues": "https://github.com/MentoskaPraha/clear-skies-reforged/issues",
+				"sources": "https://github.com/MentoskaPraha/clear-skies-reforged"
 			},
 			"icon": "assets/clear_skies_reforged/icon.png"
 		},
-		"intermediate_mappings": "net.fabricmc:intermediary",
 		"depends": [
 			{
 				"id": "quilt_loader",
-				"versions": ">=0.21.0-"
-			},
-			{
-				"id": "quilted_fabric_api",
-				"versions": ">=4.0.0-"
+				"versions": ">=0.21.2-"
 			},
 			{
 				"id": "minecraft",

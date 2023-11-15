@@ -15,8 +15,6 @@ dependencies {
 	mappings loom.officialMojangMappings()
 
     modImplementation "org.quiltmc:quilt-loader:${project.quilt_loader_version}"
-
-    modImplementation "org.quiltmc.quilted-fabric-api:quilted-fabric-api:${project.quilted_fabric_api_version}-${project.minecraft_version}"
 }
 
 configurations {
