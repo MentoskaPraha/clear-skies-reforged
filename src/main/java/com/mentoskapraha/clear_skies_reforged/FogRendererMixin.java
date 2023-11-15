@@ -1,4 +1,4 @@
-package com.mentoskapraha.clear_skies_reforged.mixin;
+package com.mentoskapraha.clear_skies_reforged;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

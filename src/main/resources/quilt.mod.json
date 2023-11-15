@@ -6,7 +6,7 @@
 		"version": "${version}",
 		"metadata": {
 			"name": "Clear Skies Reforged",
-			"description": "",
+			"description": "An updated fork of the Clear Skies mod adapted for the Quilt Modloader. This is a tiny mod that removes the banding at the horizon of Vanilla Minecraft.",
 			"contributors": {
 				"MentoskaPraha": "Owner"
 			},
@@ -15,8 +15,9 @@
 				"issues": "https://github.com/MentoskaPraha/clear-skies-reforged/issues",
 				"sources": "https://github.com/MentoskaPraha/clear-skies-reforged"
 			},
-			"icon": "assets/clear_skies_reforged/icon.png"
+			"icon": "assets/icon.png"
 		},
+        "intermediate_mappings": "net.fabricmc:intermediary",
 		"depends": [
 			{
 				"id": "quilt_loader",

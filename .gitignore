@@ -6,3 +6,6 @@ build
 
 # Ignore the test client directory
 run
+
+# Ignore other annoying files
+.DS_Store
