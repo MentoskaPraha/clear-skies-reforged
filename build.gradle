@@ -24,6 +24,12 @@ configurations {
 }
 
 loom {
+	mods {
+		"quilted_clear_skies" {
+			sourceSet("main")
+		}
+	}
+
 	mixin.defaultRefmapName = project.archives_base_name + "-refmap.json"
 
 	if (project.hasProperty('accesswidener')) {
