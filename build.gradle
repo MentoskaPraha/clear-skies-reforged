@@ -12,7 +12,11 @@ base {
 
 dependencies {
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
-	mappings loom.officialMojangMappings()
+
+	mappings loom.layered {
+		mappings "org.quiltmc:quilt-mappings:${project.minecraft_version}+build.${project.quilt_mappings_version}:intermediary-v2"
+		officialMojangMappings()
+	}
 
     modImplementation "org.quiltmc:quilt-loader:${project.quilt_loader_version}"
 }
