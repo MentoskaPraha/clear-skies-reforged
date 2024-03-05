@@ -4,7 +4,7 @@
 	"package": "com.mentoskapraha.quilted_clear_skies",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-		"FogRendererMixin"
+		"BackgroundRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
