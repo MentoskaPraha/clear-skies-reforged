@@ -1,7 +1,7 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.mentoskapraha",
+		"group": "${group}",
 		"id": "quilted_clear_skies",
 		"version": "${version}",
 		"metadata": {
@@ -16,11 +16,11 @@
 		"depends": [
 			{
 				"id": "quilt_loader",
-				"versions": ">=${loader_version}-"
+				"versions": ">=0.24.0"
 			},
 			{
 				"id": "minecraft",
-				"versions": "=${minecraft_version}"
+				"versions": "=1.20.1"
 			}
 		]
 	},

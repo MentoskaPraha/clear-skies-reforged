@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.mentoskapraha.quilted-clear-skies.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.mentoskapraha.quilted-clear-skies.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.mentoskapraha.quilted-clear-skies.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.mentoskapraha.quilted-clear-skies.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilted-clear-skies.main.iml" filepath="$PROJECT_DIR$/.idea/modules/quilted-clear-skies.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilted-clear-skies.test.iml" filepath="$PROJECT_DIR$/.idea/modules/quilted-clear-skies.test.iml" />
     </modules>

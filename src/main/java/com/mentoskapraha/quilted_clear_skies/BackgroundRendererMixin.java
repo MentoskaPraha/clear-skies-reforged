@@ -37,11 +37,6 @@ public class BackgroundRendererMixin {
         }
     }
 
-    @ModifyVariable(at = @At(value = "INVOKE_ASSIGN", target = "Lnet/minecraft/util/math/Vec3f;dot(Lnet/minecraft/util/math/Vec3f;)F"), method = "render", ordinal = 7, require = 1, allow = 1)
-    private static float afterPlaneDot(float dotProduct) {
-        return 0;
-    }
-
     @Redirect(at = @At(value = "INVOKE", target = "Lnet/minecraft/client/world/ClientWorld;getRainGradient(F)F"), method = "render", require = 1, allow = 1)
     private static float onGetRainLevel(ClientWorld world, float tickDelta) {
         return 0;
