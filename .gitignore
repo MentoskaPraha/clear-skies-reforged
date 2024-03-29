@@ -9,4 +9,5 @@ build
 run
 
 # Ignore other annoying files
+.idea
 .DS_Store
